@@ -39,9 +39,13 @@ $ go - // is a tool for managing Go source code
 $ go run example.go  - // it complies and runs the application
 
 $ go build example.go  - // it just complies the application and produces an executable (./example)
+
 $ go build - // (__.go) it will complies the files in the current directory (./dirname)
+
 $ go build -o app -// will produce an executable file call (./app)
+
 //output binary file in linux
+
 //output exe file in window
 
 ------------ 
