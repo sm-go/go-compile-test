@@ -57,5 +57,7 @@ $ go build -o app -// will produce an executable file call (./app)
 - for Mac : GOOS=darwin GOARCH=amd64 go build -o macapp
 
 $ go install and go build - will compile the package in the current directory
-- if the package is main, `go build` will place the resulting executable in the current directory and `go install` will move the executable to GOPATH/bin ($ ls ~/go/bin/) // will see executable file with project folder name
+- if the package is main, `go build` will place the resulting executable in the current directory and `go install` will move the executable to GOPATH/bin ($ ls ~/go/bin/) 
+// will see executable file with project folder name 
+//terminal can call anywhere this package name
 - when running go install you use paths relative to GOPATH/src
